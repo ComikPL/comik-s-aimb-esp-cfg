@@ -1,8 +1,3 @@
---[[
-    comik's hub V14 - Poprawione wykrywanie configów po re-execucie
-    Saves to: workspace/comik's e/a/c cfg/
-]]
-
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -12,7 +7,6 @@ local Camera = workspace.CurrentCamera
 local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 
--- Stary UI cleanup, żeby się nie dublował przy re-execucie
 if CoreGui:FindFirstChild("ComiksHubMobile") then
     CoreGui.ComiksHubMobile:Destroy()
 end
