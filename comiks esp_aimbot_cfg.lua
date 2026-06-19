@@ -1,3 +1,6 @@
+--[[ if u want to edit this script just do it.
+im fine with it but meantion me in it so everyone knows
+its upgraded or something thanks. ]]--
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
